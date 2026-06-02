@@ -1,0 +1,38 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    text-align: left;
+    margin: 0;
+}
+
+header {
+    background-color: firebrick;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.login {
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+}
