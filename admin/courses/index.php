@@ -6,7 +6,7 @@ $sql = "select * from courses";
 $query = mysqli_query($conn, $sql);
 ?>
 
-<table border="1">
+<table border="1" bordercolor="#000" cellspacing="0" cellpadding="10">
     <thead>
         <tr>
             <th>No</th>
@@ -29,7 +29,10 @@ $query = mysqli_query($conn, $sql);
             <td><?= $name ?></td>
             <td><?= $description ?></td>
             <td><?= $price ?></td>
-            <td>ubah | hapus</td>
+            <td>
+                <a href="edit.php?id=<?= $result['id'] ?>">Ubah</a> |
+                <a href="hapus.php?id=<?= $result['id'] ?>">Hapus</a>
+            </td>
         </tr>
         <?php
             $no++;
