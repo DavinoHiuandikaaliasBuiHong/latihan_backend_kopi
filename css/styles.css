@@ -5,21 +5,15 @@
 body{
     text-align: left;
     margin: 0;
+    background-color: #E1DCC9;
 }
 
 header {
-    background-color: firebrick;
+    background-color: #1F150C;
     text-align: center;
     color: white;
     margin: auto;
     padding: 40px 20px;
-}
-
-.login {
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
-    background-color: #f2f2f2;
 }
 
 section {
