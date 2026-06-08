@@ -6,4 +6,6 @@ echo "welcome, ".$username;
 <br>
 <a href="courses/index.php">manajemen kelas</a>
 <br>
+<a href="registration/index.php">manajemen pendaftaran</a>
+<br>
 <a href="logout.php">logout</a>
