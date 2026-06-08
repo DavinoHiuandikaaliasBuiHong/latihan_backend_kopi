@@ -34,5 +34,7 @@ include "header.php";
                 ?>
     </div>
 </section>
+
+<?php include "frm_pendaftaran.php"; ?>
 </body>
 </html>
